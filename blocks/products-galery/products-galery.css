@@ -1,0 +1,9 @@
+@import url(./__product-item/products-galery__product-item.css);
+@import url(./__img/products-galery__img.css);
+@import url(./__star-icon/products-galery__star-icon.css);
+
+.products-galery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 16px;
+}

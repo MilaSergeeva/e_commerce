@@ -1,0 +1,7 @@
+@import url(./__title/categories__title.css);
+
+.categories {
+  margin: 70px auto;
+  max-width: 1080px;
+  padding: 0 25px;
+}

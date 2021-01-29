@@ -1,0 +1,6 @@
+.navbar__basket-img {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}

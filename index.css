@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 } */
-
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/inter.css);
 @import url(./blocks/page/page.css);
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/nav-container/nav-container.css);
 @import url(./blocks/navbar/navbar.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/content/content.css);
+@import url(./blocks/categories/categories.css);
+@import url(./blocks/galery/galery.css);
+@import url(./blocks/products-galery/products-galery.css);

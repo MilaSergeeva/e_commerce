@@ -1,3 +1,5 @@
+@import url(./__basket-img/navbar__basket-img.css);
+
 .navbar {
   display: flex;
   align-items: center;

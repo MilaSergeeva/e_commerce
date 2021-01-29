@@ -6,4 +6,9 @@
   margin: 30px 0;
   border-radius: 30px;
   text-decoration: none;
+  transition: background 0.5s;
+}
+
+.content__btn:hover {
+  background: #563434;
 }
