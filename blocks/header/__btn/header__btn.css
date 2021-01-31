@@ -1,4 +1,4 @@
-.content__btn {
+.header__btn {
   display: inline-block;
   background: #ff523b;
   color: #fff;
@@ -9,6 +9,6 @@
   transition: background 0.5s;
 }
 
-.content__btn:hover {
+.header__btn:hover {
   background: #563434;
 }
