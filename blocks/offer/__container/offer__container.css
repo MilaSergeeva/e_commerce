@@ -1,0 +1,9 @@
+.offer__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  padding: 80px 40px;
+}

@@ -1,0 +1,14 @@
+.testimonial__container-column {
+  max-width: 250px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+  padding: 20px;
+}
+
+.testimonial__container-column:hover {
+  transform: translateY(-10px);
+}

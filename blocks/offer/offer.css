@@ -1,0 +1,10 @@
+@import url(./__container/offer__container.css);
+@import url(./__diskription-title/offer__diskription-title.css);
+@import url(./__diskription-container/offer__diskription-container.css);
+@import url(./__img/offer__img.css);
+@import url(./__img-container/offer__img-container.css);
+@import url(./__diskription-note/offer__diskription-note.css);
+
+.offer {
+  background: radial-gradient(#fff, #ffd6d6);
+}
