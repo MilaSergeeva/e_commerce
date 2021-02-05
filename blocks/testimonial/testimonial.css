@@ -6,3 +6,9 @@
 .testimonial {
   padding-top: 50px;
 }
+
+@media screen and (max-width: 670px) {
+  .testimonial {
+    padding-top: 0;
+  }
+}

@@ -12,3 +12,9 @@
 .testimonial__container-column:hover {
   transform: translateY(-10px);
 }
+
+@media screen and (max-width: 670px) {
+  .testimonial__container-column {
+    margin-top: 30px;
+  }
+}

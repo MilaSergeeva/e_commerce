@@ -6,3 +6,9 @@
   margin: auto;
   padding: 80px;
 }
+
+@media screen and (max-width: 670px) {
+  .testimonial__container {
+    padding: 40px;
+  }
+}

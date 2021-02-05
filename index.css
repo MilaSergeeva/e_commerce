@@ -20,13 +20,26 @@
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/brands/brands.css);
 
-@media screen and (max-width: 600px) {
-  .header__information
-    .galery
-    .products-galery
-    .offer__container
-    .testimonial__container {
-    flex-basis: 100%;
+@media screen and (max-width: 800px) {
+  .galery {
+    flex-direction: column;
+  }
+  .galery__item {
+    max-width: 350px;
+    min-width: 0;
+  }
+}
+@media screen and (max-width: 670px) {
+  .header__information,
+  .galery,
+  .products-galery,
+  .offer__container,
+  .testimonial__container,
+  .offer__container,
+  .footer__container-row {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
 }
 

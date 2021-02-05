@@ -6,3 +6,16 @@
   margin: auto;
   padding: 80px;
 }
+
+@media screen and (max-width: 600px) {
+  .brands__container {
+    padding: 50px 30px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .brands__container {
+    flex-wrap: wrap;
+  }
+}
