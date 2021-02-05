@@ -7,7 +7,7 @@
 }
 
 .categories__title::after {
-  header: "";
+  content: "";
   background: #ff523b;
   width: 80px;
   height: 5px;

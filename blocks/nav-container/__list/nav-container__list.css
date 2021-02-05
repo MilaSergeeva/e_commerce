@@ -1,4 +1,18 @@
 .nav-container__list {
   display: inline-block;
   list-style-type: none;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+@media screen and (max-width: 850px) {
+  .nav-container__list {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #333;
+    width: 100%;
+    padding: 0;
+    max-height: 0;
+  }
 }

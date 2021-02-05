@@ -2,3 +2,12 @@
   display: inline-block;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 850px) {
+  .nav-container__links {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

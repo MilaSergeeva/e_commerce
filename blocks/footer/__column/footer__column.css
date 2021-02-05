@@ -1,0 +1,22 @@
+.footer__column {
+  margin-bottom: 20px;
+}
+
+.footer__app-inf {
+  flex-basis: 30%;
+}
+
+.footer__logo-slogan {
+  flex: 1;
+  text-align: center;
+}
+
+.footer__info-links {
+  flex-basis: 12%;
+  text-align: center;
+}
+
+.footer__social-media {
+  flex-basis: 12%;
+  text-align: center;
+}

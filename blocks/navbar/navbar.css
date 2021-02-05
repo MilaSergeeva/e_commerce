@@ -1,4 +1,5 @@
 @import url(./__basket-img/navbar__basket-img.css);
+@import url(./__menu-icon/navbar__menu-icon.css);
 
 .navbar {
   display: flex;

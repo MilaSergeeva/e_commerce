@@ -3,7 +3,7 @@
   <head>
     <meta charset='UTF-8'>
     <title>Ecommerce website</title> 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body class='root'>
     <div class='page'>
@@ -11,7 +11,7 @@
         <div class='header__container'>
           <div class='navbar'>
             <div class='logo'>
-              <img src="./images/logo.png" alt="logo" class='loho__img'>
+              <img src="./images/logo.png" alt="logo" class='logo__img'>
             </div>
             <nav class='nav-container'>
               <ul class='nav-container__list'>
@@ -33,6 +33,7 @@
               </ul>
             </nav>
             <img src="./images/cart.png" class='navbar__basket-img' alt="">
+            <img src="./images/menu.png" class='navbar__menu-icon' alt="">
           </div>
         </div>
 
@@ -132,7 +133,7 @@
                 <img src="./images/star-black.svg" alt="star" class="products-galery__star-icon">
                 <img src="./images/star-black.svg" alt="star" class="products-galery__star-icon">
                 <img src="./images/star-black.svg" alt="star" class="products-galery__star-icon">
-                <img src="./images/star-empty.svg" alt="star" class="products-galery__star-icon">
+                <img src="./images/half-star.svg" alt="star" class="products-galery__star-icon">
               </div>
               <p>$80.00</p>
             </div>
@@ -178,7 +179,7 @@
               <div class="products-galery__product-rating">
                 <img src="./images/star-black.svg" alt="star" class="products-galery__star-icon">
                 <img src="./images/star-black.svg" alt="star" class="products-galery__star-icon">
-                <img src="./images/star-empty.svg" alt="star" class="products-galery__star-icon">
+                <img src="./images/half-star.svg" alt="star" class="products-galery__star-icon">
                 <img src="./images/star-empty.svg" alt="star" class="products-galery__star-icon">
                 <img src="./images/star-empty.svg" alt="star" class="products-galery__star-icon">
               </div>
@@ -224,7 +225,7 @@
               <div class="products-galery__product-rating">
                 <img src="./images/star-black.svg" alt="star" class="products-galery__star-icon">
                 <img src="./images/star-black.svg" alt="star" class="products-galery__star-icon">
-                <img src="./images/star-empty.svg" alt="star" class="products-galery__star-icon">
+                <img src="./images/half-star.svg" alt="star" class="products-galery__star-icon">
                 <img src="./images/star-empty.svg" alt="star" class="products-galery__star-icon">
                 <img src="./images/star-empty.svg" alt="star" class="products-galery__star-icon">
               </div>
@@ -246,18 +247,60 @@
             </div>
           </div>
         </div>
+
+        <div class="brands">
+          <div class="brands__container">
+            <div class="brands__container-column">
+              <img src="./images/nike.png" alt="nike-logo" class="brands__logo-img">
+            </div>
+            <div class="brands__container-column">
+              <img src="./images/logo-philips.png" alt="philips-logo" class="brands__logo-img">
+            </div>
+            <div class="brands__container-column">
+              <img src="./images/asics.png" alt="puma-logo" class="brands__logo-img">
+            </div>
+            <div class="brands__container-column">
+              <img src="./images/salomon.png" alt="salomon-logo" class="brands__logo-img">
+            </div>
+            <div class="brands__container-column">
+              <img src="./images/adidas.png" alt="adidas-logo" class="brands__logo-img">
+            </div>
+          </div>
+        </div>
         
       </main>
       <footer class="footer">
         <div class="footer__container">
           <div class="footer__container-row">
-            <div class="footer__column">
+            <div class="footer__column footer__app-inf">
               <h3 class="footer__title">Download Our App</h3>
               <p class="footer__text">Download Our App for Androin and ios mobile phone</p>
+              <div class="footer__app-logo">
+                <img src="./images/play-store.png" alt="play-store-logo" class="footer__app-img">
+                <img src="./images/app-store.png" alt="app-store"  class="footer__app-img">
+              </div>
             </div>
-            <div class="footer__column">
-              <img src="./images/logo-white.png" alt="logo">
+            <div class="footer__column footer__logo-slogan">
+              <img src="./images/logo-white.png" alt="logo" class="footer__logo">
               <p class="footer__text">Our Purpose is to Sustainable Make the Pleasure and Benefits of Sport Accessible to the Many</p>
+            </div>
+            <div class="footer__column footer__info-links">
+              <h3 class="footer__title">Useful Links</h3>
+              <ul class="footer__links">
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+              </ul>
+            </div>
+            <div class="footer__column footer__social-media">
+              <h3 class="footer__title">Follow Us</h3>
+              <ul class="footer__links">
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>YouTube</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -265,4 +308,5 @@
 
     </div> 
   </body>
+  <script src="./index.js"></script>
 </html>

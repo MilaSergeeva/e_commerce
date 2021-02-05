@@ -1,0 +1,15 @@
+@import url(./__column/footer__column.css);
+@import url(./__container-row/footer__container-row.css);
+@import url(./__container/footer__container.css);
+@import url(./__text/footer__text.css);
+@import url(./__title/footer__title.css);
+@import url(./__links/footer__links.css);
+@import url(./__app-logo/footer__app-logo.css);
+@import url(./__app-img/footer__app-img.css);
+
+.footer {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 25px 20px;
+}

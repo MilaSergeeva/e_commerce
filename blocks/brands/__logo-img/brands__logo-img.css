@@ -1,0 +1,9 @@
+.brands__logo-img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.brands__logo-img:hover {
+  filter: drop-shadow(5px 5px #ff523b);
+}
