@@ -3,5 +3,19 @@
 .categories {
   margin: 70px auto;
   max-width: 1080px;
-  padding: 0 25px;
+  padding: 0 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .categories {
+    padding: 0 25px;
+    margin: 50px auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .content {
+    padding: 0 15px;
+    margin: 30px auto;
+  }
 }

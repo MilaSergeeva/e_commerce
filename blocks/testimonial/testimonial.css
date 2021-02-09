@@ -4,11 +4,11 @@
 @import url(./__img/testimonial__img.css);
 
 .testimonial {
-  padding-top: 50px;
+  padding-top: 0;
 }
 
-@media screen and (max-width: 670px) {
+/* @media screen and (max-width: 670px) {
   .testimonial {
     padding-top: 0;
   }
-}
+} */

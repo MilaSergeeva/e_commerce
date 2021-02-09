@@ -3,4 +3,5 @@
   width: 25px;
   object-fit: contain;
   margin-bottom: 10px;
+  cursor: pointer;
 }

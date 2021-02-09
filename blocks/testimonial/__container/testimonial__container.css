@@ -4,11 +4,17 @@
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding: 80px;
+  padding: 80px 50px;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 1024px) {
   .testimonial__container {
-    padding: 40px;
+    padding: 60px 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonial__container {
+    padding: 40px 15px;
   }
 }

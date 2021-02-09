@@ -1,11 +1,22 @@
-.content {
+/* .content {
   display: flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* max-width: 1300px; */
   margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+} */
+
+/* @media screen and (max-width: 1024px) {
+  .content {
+    padding: 0 15px;
+  }
 }
+
+@media screen and (max-width: 800px) {
+  .content {
+    padding: 0;
+  }
+} */
